@@ -20,3 +20,18 @@
 .App-link {
   color: #09d3ac;
 }
+
+#feed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article {
+  /* border: 1px solid black; */
+  width: 500px;
+  grid-gap: 10px;
+  /* margin: 10px 30px 20px 30px; */
+  margin: 0 auto;
+  margin-bottom: 50px;
+  box-shadow: 14px 10px 10px 10px rgba(0, 0, 0, 0.08);
+}
